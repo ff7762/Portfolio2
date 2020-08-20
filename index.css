@@ -37,6 +37,7 @@ body {
     top: 2vh;
     text-align: right;
     overflow: hidden;
+    z-index: 1000;
 }
 
 .micron {
@@ -54,7 +55,7 @@ body {
     justify-content: flex-end;
     padding-right: 60px;
     font-size: 20px;
-    height: 40vh;
+    height: 6vh;
     padding-top: 12px;
     z-index: 200;
     width: 80vw;
@@ -62,14 +63,17 @@ body {
     top: -3vh;
 }
 
-.list {
+.links {
+    text-decoration: none;
     padding-right: 60px;
-    font-size: 18px;
+    font-size: 28px;
+    transition: color 0.15s ease;
+    color: #CCD6F6;
+    top: -1vh;
 }
 
-.list_item {
-    padding-left: 20px;
-    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+.links:hover {
+  color: #64FFDA;
 }
 
 .resume {
