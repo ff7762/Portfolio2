@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background: #697568;
+    background: #ffffff;
 }
 
 @font-face {
@@ -69,7 +69,6 @@ body {
     font-size: 28px;
     transition: color 0.15s ease;
     color: #CCD6F6;
-    top: -1vh;
 }
 
 .links:hover {
@@ -485,7 +484,7 @@ body {
 }
 
 .contact {
-    background: #697568;
+    background: #ffffff;
     height: 50vh;
     width: 100vw;
     text-align: center;
@@ -509,7 +508,7 @@ body {
     display: flex;
     flex-shrink: 0;
     justify-content: flex-start;
-    left: 20vw;
+    left: 17vw;
 }
 
 .contact-me {
@@ -523,4 +522,5 @@ body {
     text-align: center;
     font-size: 26px;
     top: -10vh;
+    color: #000000;
 }
