@@ -7,19 +7,18 @@
 </head>
 <body>
     <div class="landing">
-        <div class="topbar">
+        <div class="topbar" id="topbar">
             <img class="micron" src="assets/micron.svg" alt="M icon">
             <div class="topbarRight"
                 <ol class="list">
                     <li class="list_item">About</li>
-                    <li class="list_item">Experience</li>
                     <li class="list_item">Work</li>
                     <li class="list_item">Contact</li>
                 </ol>
                 <button class="resume" type="button" name="button">Resume</button>
             </div>
         </div>
-        <div class="center">
+        <div class="animate-landing" id="animate-landing">
             <p class="hi">Hi, My name is</p> <br>
             <h1 class="name">Matthew Hammond</h1>
             <h2 class="career">I build things for the web.</h2>
@@ -51,7 +50,7 @@
                 <div>
                     <h2 class="title">About me</h2>
                 </div>
-                <div class="horizonal_line">
+                <div class="about_me_horizonal_line">
                 </div>
             </div>
             <div class="paragraph-container">
@@ -67,19 +66,79 @@
             <img class="me" src="assets/me.jpg" alt="handsome man">
         </div>
     </div>
-    <div class="experience">
+    <div class="work" id="Work">
         <div class="center">
             <div class="title-container">
                 <div>
-                    <h4 class="digit_one">01. </h4>
+                    <h4 class="digit_one">02. </h4>
                 </div>
                 <div>
-                    <h2 class="title">About me</h2>
-                </div>
-                <div class="horizonal_line">
+                    <h2 class="title">Some things I've built</h2>
+                </div class="experience_line_container">
+                    <div class="experience_horizonal_line">
                 </div>
             </div>
-        <div>
+            <div class="project-container">
+                <div class="project">
+                    <div class="project-content">
+                        <div class="project-label">Long Dog game</div>
+                        <h4 class="project-title">React Maze game</h4>
+                        <div class="project-details">
+                            <p>A fun interactive React maze game where players must stroke
+their hand along the body of the dog while avoiding the brushes.</p>
+                        </div>
+                        <div class="tech-list-container">
+                            <ul class="tech-list">
+                                <li class="tech-li">React</li>
+                                <li class="tech-li">Javascript</li>
+                                <li class="tech-li">CSS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img">
+                    <img class="img" src="assets/maze.jpg" alt="" />
+                </div>
+            </div>
+            <div class="project-container2">
+                <div class="project2">
+                    <div class="project-content2">
+                        <div class="project-label2">RPG game character generator</div>
+                        <h4 class="project-title2">PHP and Javascript pdf generator</h4>
+                        <div class="project-details2">
+                            <p>
+A new web app for people who play the RPG game. It will guide users through character creation. It improves upon other similar websites by allowing the user to download a ready-to-play character sheet, providing the acessability and ease of entry the the game system currently lacks.</p>
+                        </div>
+                        <div class="tech-list-container2">
+                            <ul class="tech-list2">
+                                <li class="tech-li2">Shadow</li>
+                                <li class="tech-li2">Demon</li>
+                                <li class="tech-li2">Baby</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img2">
+                    <img class="img2" src="assets/dark-heresy-character-creator.png" alt="" />
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="contact">
+        <div class="center">
+            <div class="contact-title-container">
+                <div>
+                    <h4 class="digit_one">03. </h4>
+                </div>
+                <div>
+                    <h2 class="contact-title">What's next?</h2>
+                </div>
+            </div>
+            <p class="contact-paragraph">Although I'm not currently looking for any new opportunities, my inbox is always open.
+               Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
