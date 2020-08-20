@@ -202,7 +202,7 @@ body {
 .rightline {
     display: block;
     width: 1px;
-    height: 100px;
+    height: 8vh;
     background-color: rgb(168, 178, 209);
     margin: 0px auto;
     position: fixed;
