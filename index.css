@@ -93,6 +93,12 @@ body {
     background: #0A192F;
 }
 
+.resume-link {
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(100, 255, 218);
+}
+
 .animate-landing {
     text-align: left;
     width: 100%;
