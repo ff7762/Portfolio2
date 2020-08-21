@@ -104,14 +104,12 @@ body {
     width: 85vw;
     min-height: 100vh;
     counter-reset: section 0;
-    padding: 20vh 14.5vw;
+    padding: 190px 280px;
     margin: 0px auto;
     overflow-y: hidden;
     left: 0vw;
     animation: 1s ease-out 0s 1 slideInFromLeft;
 }
-
-
 
 
 @keyframes slideInFromLeft {
@@ -301,7 +299,7 @@ body {
     font-size: 20px;
     top: -1vh;
     line-height: 1.3;
-    width: 10vw;
+    width: 32vw;
 }
 
 .me {
