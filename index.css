@@ -126,11 +126,12 @@ body {
     text-align: left;
     width: 100%;
     max-width: 85vw;
-    min-height: 100vh;
+    height: 100vh;
     counter-reset: section 0;
     padding: 190px 280px;
     margin: 0px auto;
     overflow-y: hidden;
+    border: 1px solid #ffffff;
 }
 
 .hi {
@@ -266,6 +267,18 @@ body {
     font-size: 30px;
 }
 
+.about-center {
+    text-align: left;
+    width: 100%;
+    max-width: 85vw;
+    height: 80vh;
+    counter-reset: section 0;
+    padding: 190px 280px;
+    margin: 0px auto;
+    overflow-y: hidden;
+    border: 1px solid #ffffff;
+}
+
 .digit_one {
     width: 2vw;
     top: 1vh;
@@ -275,6 +288,7 @@ body {
 .title {
     width: 10vw;
     width: 200px;
+    overflow: hidden;
 }
 
 .title-container {
@@ -285,6 +299,10 @@ body {
     display: flex;
     flex-shrink: 0;
     justify-content: flex-start;
+}
+
+.about-title-container {
+    overflow: hidden;
 }
 
 .horizonal_line {
@@ -306,8 +324,10 @@ body {
 .me {
     height: 38vh;
     left: 38vw;
-    top: -26vh;
     border-radius: 2px;
+    top: -250px;
+    border: 1px solid #ffffff;
+    min-height: 240px;
 }
 
 .work {
