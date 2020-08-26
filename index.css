@@ -276,7 +276,6 @@ body {
     padding: 190px 280px;
     margin: 0px auto;
     overflow-y: hidden;
-    border: 1px solid #ffffff;
 }
 
 .digit_one {
@@ -326,7 +325,6 @@ body {
     left: 38vw;
     border-radius: 2px;
     top: -250px;
-    border: 1px solid #ffffff;
     min-height: 240px;
 }
 
