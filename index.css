@@ -33,6 +33,7 @@ body {
     color: #CCD6F6;
     font-family: CalibreMedium;
     height: 10vh;
+    min-height: 80px;
     width: 100vw;
     top: 2vh;
     text-align: right;
@@ -69,6 +70,7 @@ body {
     font-size: 28px;
     transition: color 0.15s ease;
     color: #CCD6F6;
+    overflow-y: hidden;
 }
 
 .links:hover {
@@ -83,10 +85,10 @@ body {
     color: rgb(100, 255, 218);
     border-color: rgb(100, 255, 218);
     border-radius: 3px;
-    height: 4vh;
-    width: 8vh;
+    height: 33.5px;
+    width: 75px;
     display: inline-block;
-    top: -1vh;
+    top: -0.5vh;
     font-size: 20px;
     margin-left: 2vw;
     background: #0A192F;
