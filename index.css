@@ -292,11 +292,12 @@ body {
 .title-container {
     font-size: 26px;
     top: -8vh;
-    width: 30vw;
-    height: 6vh;
+    width: 620px;
+    height: 100px;
     display: flex;
     flex-shrink: 0;
     justify-content: flex-start;
+    overflow-y: hidden;
 }
 
 .about-title-container {
@@ -347,7 +348,7 @@ body {
 }
 
 .experience_horizonal_line {
-    width: 400px;
+    width: 26vw;
     height: 1px;
     top: 20px;
     background-color: rgb(168, 178, 209);
