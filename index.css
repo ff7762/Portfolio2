@@ -514,30 +514,17 @@ body {
 }
 
 .contact-title {
-    width: 10vw;
-    width: 600px;
     color: #000000;
-    padding-left: 10px;
-    top: 0.3vh;
+    text-align: center;
 }
 
 .contact-title-container {
     font-size: 24px;
     top: -8vh;
-    width: 60vw;
     height: 20vh;
-    display: flex;
-    flex-shrink: 0;
-    justify-content: flex-start;
-    left: 17vw;
+    text-align: center;
 }
 
-.contact-me {
-    top: 8vh;
-    right: 36vw;
-    font-size: 46px;
-    width: 20vw;
-}
 
 .contact-paragraph {
     text-align: center;
